@@ -1,0 +1,1019 @@
+/*
+Theme Name: NF Theme
+Theme URI: http://
+Description:  nftheme
+Author: bia
+Author URI: http://
+Template: accesspress-parallax
+Version:
+*/
+
+
+/*-------------------------------------------------TEMPLATE SPECIFIC-----------*/
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-content {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.mid-content {
+    margin: 0;
+    padding: 0;
+}
+
+.mid-content h2 {
+    display: none;
+}
+
+.copy-right {
+    display: none;
+}
+
+.site-info {
+    display: none;
+}
+
+.entry-title {
+    display: none;
+}
+
+#go-top {
+    display: none !important;
+}
+
+
+/*-------------------GENERAL--------------------*/
+
+body {
+    display: block;
+    margin: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+
+/*---------------------------------------------------TYPOGRAPHY--------------------*/
+
+.title {
+    color: #fff;
+    font-size: 50px;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+.title-dk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222347;
+    font-size: 50px;
+    font-family: Avenir, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.smtitle {
+    color: #fff;
+    font-size: 16px;
+    font-family: Avenir, sans-serif;
+    margin: 0px;
+    padding: 5px;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+
+/*-------------------NAVIGATION------------------------*/
+
+.page-id-10 .x-navbar-inner {
+    background-color: black;
+}
+
+.page-id-5 .menu-navigation {
+    background: rgba(0, 117, 135, 0.3) !important;
+    background-color: green;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.top-nav-white {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.topnav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    overflow: hidden;
+    font-family: Avenir, sans-serif;
+    padding: 0;
+}
+
+#menu-navigation {
+    display: flex !important;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    overflow: hidden;
+    font-family: Avenir, sans-serif;
+    padding: 0;
+    list-style: none;
+    +position(fixed, null 0px 0px 0px)+transition(transform 1s $ease-in-out-quint)
+}
+
+#menu-navigation ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#menu-navigation a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000066;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+#menu-navigation a:hover,
+a:visited {
+    background: rgba(0, 117, 135, 0.1);
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background: rgba(0, 117, 135, 0.3);
+}
+
+#site-navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background: rgba(0, 117, 135, 0.5);
+    /*background-color: #fff;*/
+}
+
+.topnav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.topnav a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000066;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover,
+a:visited {
+    background: rgba(0, 117, 135, 0.1);
+}
+
+.icon {
+    display: none;
+}
+
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+.social a {
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.social i {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 3px;
+    background-color: #000066;
+    border-radius: 3px;
+}
+
+
+/*-------------------HERO SECTION - HOME AND ABOUT ------------*/
+
+#page-506>div>section.hero-bg1>h1> {
+    -webkit-margin-before: 0
+}
+
+#page-506>div>section.hero-bg1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.hero-bg1 {
+    flex: 1 1 auto;
+    background-image: url("https://nicholasforrest.com/wp-content/uploads/2017/06/hero-bg1.png");
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-bg2 {
+    flex: 1 1 auto;
+    background-image: url("https://nicholasforrest.com/wp-content/uploads/2017/06/hero-bg2.jpg");
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    z-index: -1;
+}
+
+.hero-text {
+    color: #222347;
+    font-size: 50px;
+    font-family: Avenir, sans-serif;
+    padding-top: 230px;
+    padding-left: 115px;
+    padding-bottom: 470px;
+    margin-bottom: 0px;
+}
+
+
+/*------------------------------------------------------------------------------3 BOXES - HOME --------------------*/
+.home-boxwrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 50px 0px 50px 0px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+
+.home-boxwrap:hover {
+    background-color: #222347;
+}
+
+.home-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #222347;
+    width: 365px;
+    height: 274px;
+    color: #fff;
+    margin: 10px 20px 10px 20px;
+    padding: 15px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+
+.home-box:hover {
+    color: #222347;
+    background-color: #ccffff;
+    border-radius: 30px;
+}
+/*-----------------------------------------------------------------------------BRANDING --------------------*/
+
+.pol-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 50px 0px 50px 0px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+
+.pol-container:hover {
+    background-color: #222347;
+}
+
+.pol-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #222347;
+    width: 365px;
+    height: 274px;
+    color: #fff;
+    margin: 10px 20px 10px 20px;
+    padding: 15px 15px 90px 15px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+
+.pol-item:hover {
+    color: #222347;
+    background-color: #fff;
+    border-radius: 0px;
+}
+
+
+/*-------------------------------------------------------------------------------SPLIT SCREEN -------------*/
+
+.split-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.split-item-left {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #336699;
+    width: 50%;
+    color: #fff;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.split-item-right {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #009999;
+    width: 50%;
+    color: #fff;
+    margin: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.split-text {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    margin: 20px;
+    color: #222347;
+    background-color: #fff;
+    width: 85%;
+    height: 180px;
+    font-size: 16px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+.split-text:hover {
+    background-color: #ccffff;
+    border-radius: 30px;
+}
+
+.imgbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.rimg {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    height: auto;
+}
+
+.box-banner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*-----------------------------------------------------------------VIRAL BANNER-------------------*/
+
+.viral-banner {
+    background-image: url("https://nicholasforrest.com/wp-content/uploads/2017/06/star-background-1920x1080.jpg");
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 100px 0px 100px 0px;
+}
+
+
+/*------------------------------------------------------------------------GALLERY--------------------*/
+
+.gallery-wrapper {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+}
+
+.gallery-box {
+    display: flex;
+    padding: 0px;
+    margin: 5px;
+    justify-content: center;
+    width: 219px;
+    height: 146px;
+}
+
+
+/*-----------------------------------------------------------------------------------MY WORKS-------------------*/
+
+.works-wrap {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px;
+}
+.works-item:hover {
+    border: solid 2px #000;
+    border-radius: 30px;
+}
+
+.works-item {
+    flex: 0 0 auto;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: #fff;
+    width: 300px;
+    height: 480px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+
+.works-item i {
+    display: flex;
+    font-size: 190px;
+    color: #000066;
+}
+
+.smbar {
+    flex: 0 0 auto;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 250px;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.p-services {
+    line-height: 30px;
+    padding: 15px;
+}
+/*-----------------------------------------------------------------------SUBSCRIBE FORM--------------------*/
+.sub-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------CONTACT FORM--------------------*/
+/*
+.form-wrapper {
+    background-image: url("https://nicholasforrest.com/wp-content/uploads/2017/06/star-background-1920x1080.jpg");
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: -21px;
+}*/
+.contact-wrapper {
+    background-image: url("https://nicholasforrest.com/wp-content/uploads/2017/06/star-background-1920x1080.jpg");
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 0px 20px 0px;
+    margin-top: -21px;
+}
+
+#contact-container {
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-input {
+    width: 350px;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Avenir, sans-serif;
+    border: none;
+}
+/*
+#contact-comment {
+    height: 150px;
+    resize: none;
+}*/
+/*
+#contact-name:focus,
+#contact-email:focus,
+#contact-comment:focus {
+    outline: none;
+}*/
+/*
+#contact-button-bottom {
+    height: 20px;
+}*/
+
+#contact-button {
+    margin: auto;
+    width: 30%;
+    
+}
+
+#contact-send {
+    float: left;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1.3em;
+    border-radius: 0px;
+}
+
+#contact-send:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+
+/*-------------------FOOTER--------------------*/
+
+.flex-footer {
+    background-color: #222347;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px;
+    padding: 22px;
+}
+
+.footer-text {
+    margin: 0px 30px 0px 30px;
+    padding: 15px;
+    justify-content: center;
+    align-content: flex-end;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+.flex-footer .social i {
+    font-size: 18px;
+    color: #000066;
+    text-decoration: none;
+    padding: 2px 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.flex-footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+.social a {
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.social i {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 3px;
+    background-color: #000066;
+    border-radius: 3px;
+}
+
+.flex-footer {
+    background-color: #222347;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    margin: 0px;
+    padding: 22px;
+}
+
+.footer-text {
+    margin: 0px 30px 0px 30px;
+    padding: 15px;
+    justify-content: center;
+    align-content: flex-end;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+.simple-social-icons i {
+    font-size: 18px;
+    color: #000066;
+    text-decoration: none;
+    padding: 2px 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.simple-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+.social a {
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.social i {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 3px;
+    background-color: #000066;
+    border-radius: 3px;
+}
+
+
+/*-------------------BLOG--------------------*/
+
+.blog-row {
+    display: flex;
+    flex-direction: row;
+    /*width: 600px;*/
+    height: 300px;
+    /*padding: 10px;*/
+    align-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /*margin: 20px;*/
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+}
+
+.main-blog-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-col-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-col-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.sidebar-module-inset {
+    padding: 15px;
+    /*background-color: rgba(0, 0, 0, 0.1) !important;*/
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.sidebar-module ul {
+    list-style: none;
+}
+
+.sidebar-module a {
+    text-decoration: none;
+}
+
+
+/*Main  column and sidebar layout */
+
+.blog-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    line-height: 1.5;
+    background: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#00C073), to(#7E80FF));
+    padding: 20px 120px 20px 120px;
+}
+
+.blog-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    background: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#00C073), to(#7E80FF));
+    padding: 30px;
+}
+
+
+/* Sidebar modules for boxing content */
+
+.blog-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+.sidebar-module {
+    padding: 15px;
+}
+
+.sidebar-module ul, a {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.sidebar-module-inset {
+    background: transparent !important;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child, {
+    margin-bottom: 0;
+}
+
+/* Pagination */
+
+.pager {
+    margin-bottom: 60px;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    transition: All 1s ease 0s;
+    -webkit-transition: All 1s ease 0s;
+    -moz-transition: All 1s ease 0s;
+    -o-transition: All 1s ease 0s;
+    -ms-transition: all 1s ease 0s
+}
+
+.pager:hover {
+    background: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#00C073), to(#7E80FF));
+}
+
+.pager>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Blog posts */
+
+.blog-post-single {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 340px;
+    margin-top: 100px;
+    padding: 0px 20px 20px 20px ;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.blog-post p {
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+}
+
+.blog-post-title {
+    margin-bottom: 0px;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+}
+
+.blog-post-title a {
+    text-decoration: none;
+}
+
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+/*----- Footer----*/
+
+.footer-block {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #555
+}
+
+.blog-footer {
+    padding: 20px 0;
+    color: #f5f5f5;
+    text-align: center;
+    background-color: #555;
+    border-top: 1px solid #e5e5e5;
+}
+
+.entry-footer {
+    display: none;
+}
+
